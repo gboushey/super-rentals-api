@@ -1,10 +1,10 @@
 # Super Rentals Rails API
 
-This project contains a rails-api backend for the super-rentals tutorial on the Ember website.  I want to be clear this approach to creating a rails-apu backend isn't in any way an official part of the Ember tutorial.  Instead this repository contains code and notes I figured I'd keep around in case I wanted to refer to them in the future. It could also be useful for someone learning to create a separate backend api for ember in Rails after getting started with the Ember tutorial.  
+This project contains a rails-api backend for the super-rentals tutorial on the Ember website.  I want to be clear this approach to creating a rails-api backend isn't in any way an official part of the Ember tutorial.  Instead this repository contains code and notes I figured I'd keep around in case I wanted to refer to them in the future. It could also be useful for someone learning to create a separate backend api for ember in Rails after getting started with the Ember tutorial.  
 
-If you'd to hook the Ember tutorial app up to this rails backend to follow, here's what you'll need to do
+If you'd like to hook the Ember tutorial app up to this rails backend, here's what you'll need to do
 
-1) Follow the Ember tutorial at https://guides.emberjs.com/v2.11.0/tutorial/ember-cli/, and complete up through the section on "Using Ember Data".  We'll replace Ember Mirage with a rails-api backend for development, while leaving Mirage in place for testing.
+1) Follow the Ember tutorial at https://guides.emberjs.com/v2.11.0/tutorial/ember-cli/, and complete it through the section on "Using Ember Data".  We'll replace Ember Mirage with a rails-api backend for development, while leaving Mirage in place for testing.
 
 2) Once you've gotten the Ember tutorial working through Ember Data, you'll need to configure Ember not to default to Mirage in development.  To do this, open the config/environment.js file in your Ember app, and add the following code:
 
