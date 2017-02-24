@@ -31,7 +31,7 @@ If you'd like to hook the Ember tutorial app up to this rails backend, here's wh
  
  As usual, and your Ember app will continue to use the testing data you configured through Mirage.  
  
- ## Notes on the Rails app
+ # Notes on the Rails app
  
  This rails app was created through rails-api.  There were a few alterations I had to make to get it working with Ember
  
